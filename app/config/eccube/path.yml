@@ -1,0 +1,55 @@
+# duplicated
+root: /html/ # root_urlpath
+admin_dir: partitionstore_admin/ # admin_route
+tpl: /html/user_data/packages/default/ # front_urlpath
+admin_tpl: /html/user_data/packages/admin/ # admin_urlpath
+image_path: /html/upload/save_image/ # image_save_urlpath
+
+# base valiables
+root_dir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com
+root_urlpath: /html
+template_code: default
+
+# routing
+admin_route: partitionstore_admin
+user_data_route: user_data
+
+# public directory
+public_path: /html
+public_path_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/html
+
+# realdir::image
+image_save_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/html/upload/save_image
+image_temp_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/html/upload/temp_image
+
+# realdir::user_data
+user_data_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/html/user_data
+
+# realdir::block
+block_default_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/src/Eccube/Resource/template/default/Block
+block_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/app/template/default/Block
+
+# realdir::template
+template_default_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/src/Eccube/Resource/template/default
+template_default_html_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/html/template/default
+template_admin_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/src/Eccube/Resource/template/admin
+template_admin_html_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/html/template/admin
+template_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/app/template/default
+template_html_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/html/template/default
+template_temp_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/app/cache/eccube/template
+
+# realdir::csv
+csv_temp_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/app/cache/eccube/csv
+
+# realdir:plugin
+plugin_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/app/Plugin
+plugin_temp_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/app/cache/plugin
+plugin_html_realdir: /export/sd09/www/jp/r/e/gmoserver/4/3/sd0163743/partition-store.com/html/plugin
+
+# urlpath
+admin_urlpath: /html/template/admin
+front_urlpath: /html/template/default
+image_save_urlpath: /html/upload/save_image
+image_temp_urlpath: /html/upload/temp_image
+user_data_urlpath: /html/user_data
+plugin_urlpath: /html/plugin
